@@ -192,7 +192,23 @@
 - 正则表达式
 - re模块
 
+### day017
 
-
-
+- re模块及其常用方法
+  - 查找
+    - findall
+    - search
+    - match
+  - 字符串处理 切割/替换
+    - split
+    - sub
+    - subn
+  - 进阶方法
+    - compile 节省时间
+    - finditer 节省空间
+- re模块使用分组
+  - search的分组
+  - finditer的分组
+- 命名分组
+- 爬虫示例
 
