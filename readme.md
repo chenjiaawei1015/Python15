@@ -219,3 +219,10 @@
 - datetime模块
 - os模块
 
+### day019
+
+- os模块补充
+- 序列化模块
+  - json
+  - pickle
+
