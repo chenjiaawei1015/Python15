@@ -212,3 +212,10 @@
 - 命名分组
 - 爬虫示例
 
+### day018
+
+- random模块
+- time模块
+- datetime模块
+- os模块
+
