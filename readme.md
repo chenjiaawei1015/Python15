@@ -279,7 +279,22 @@
   - \_\_enter\_\_ 与 \_\_exit\_\_
   - \_\_init\_\_ 与 \_\_new\_\_
 
+### day025
 
+- 类的特殊成员补充
+  - \_\_iter\_\_
+- 内置函数
+  - issubclass
+  - type
+  - isinstance
+- 函数与方法的区别
+  - FunctionType 与 MethodType
+- 反射
+  - 模块的反射
+  - 类的反射
+  - 反射的四个方法 getattr hasattr setattr delattr
+- 内置函数补充
+  - callable
 
 
 
