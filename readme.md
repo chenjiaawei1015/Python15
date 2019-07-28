@@ -335,3 +335,9 @@
 - subprocess模块
 - struct模块
 
+### day029
+
+- socket实现文件上传
+- hmac 模块
+- socketserver 及其源码分析
+
