@@ -406,3 +406,24 @@
 
 - 爬虫案例
 
+### day035
+
+- 并行/并发 阻塞/非阻塞 同步/异步
+- 协程
+- greenlet
+- gevent
+- 五种IO模型
+  - 阻塞IO
+  - 非阻塞IO
+  - IO多路复用
+  - 信号驱动
+  - 异步IO
+- IO多路复用
+  - select 模块
+- selectors模块
+  - select
+  - pool
+  - epool
+
+
+
