@@ -461,3 +461,10 @@
 - javascript基础
 - DOM
 
+### day043
+
+- DOM
+- 节点操作
+- 属性操作
+- innerHTML innerText value 三者的用法
+
