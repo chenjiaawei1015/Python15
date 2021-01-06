@@ -313,6 +313,32 @@ head标签都放在头部分之间。这里面包含了：`<title>`、`<meta>`�
   - `_parent`：在父窗口中显示
   - `_top`：在顶级窗口中显示
 
+#### 超链接清除默认的样式
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        a {
+            /* 下划线清除. */
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- javascript:void(0); 清除默认的点击动作 -->
+<a href="javascript:void(0);">清除默认样式</a>
+
+</body>
+</html>
+```
+
 ### 图片标签 img
 
 - img是自封闭标签，也称为单标签
@@ -328,6 +354,34 @@ head标签都放在头部分之间。这里面包含了：`<title>`、`<meta>`�
 - `title`：**提示性文本**。公有属性。也就是鼠标悬停时出现的文本
 - `align`：指图片的水平对齐方式，属性值可以是：left、center、right
 - `alt`：当图片显示不出来的时候，代替图片显示的内容。alt是英语 alternate “替代”的意思
+
+一般为了是 img 具有点击操作, 一般会与 a 标签一同使用
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        a {
+            /* 下划线清除. */
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- 点击图片, 跳转百度 -->
+<a href="http://www.baidu.com">
+    <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="百度图片">
+</a>
+
+</body>
+</html>
+```
 
 #### 注意
 
@@ -484,7 +538,7 @@ head标签都放在头部分之间。这里面包含了：`<title>`、`<meta>`�
 
 #### label标签
 
-- 可以与 input 标签进行绑定
+- 可以与 input 标签进行绑定, label 中的 for 属性值与 input 标签的 id 值进行对应
 
   ```html
   <input type="radio" name="sex" id="nan" /> <label for="nan">男</label>
